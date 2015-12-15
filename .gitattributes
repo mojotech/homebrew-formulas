@@ -1,0 +1,5 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+files/instantclient-basic-macos.x64-11.2.0.4.0.zip filter=lfs diff=lfs merge=lfs -text
+files/instantclient-basiclite-macos.x64-11.2.0.4.0.zip filter=lfs diff=lfs merge=lfs -text
+files/instantclient-sdk-macos.x64-11.2.0.4.0.zip filter=lfs diff=lfs merge=lfs -text
+files/instantclient-sqlplus-macos.x64-11.2.0.4.0.zip filter=lfs diff=lfs merge=lfs -text
