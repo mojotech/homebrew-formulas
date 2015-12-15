@@ -1,5 +1,5 @@
 require 'formula'
-require File.expand_path('util/instantclient', __FILE__)
+require File.expand_path('./util/instantclient', __FILE__)
 
 # A formula that installs the Instantclient Basic package.
 class InstantclientBasic < Formula
