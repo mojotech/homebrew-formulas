@@ -2,7 +2,7 @@ require 'formula'
 require File.expand_path('../util/instantclient', __FILE__)
 
 # A formula that installs the Instantclient Sqlplus package.
-class InstantclientBasiclite < Formula
+class InstantclientSqlplus < Formula
   include Instantclient
 
   desc 'Oracle Instantclient Sqlplus x64.'

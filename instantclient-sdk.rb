@@ -2,7 +2,7 @@ require 'formula'
 require File.expand_path('../util/instantclient', __FILE__)
 
 # A formula that installs the Instantclient SDK package.
-class InstantclientBasiclite < Formula
+class InstantclientSdk < Formula
   include Instantclient
 
   desc 'Oracle Instantclient SDK x64.'
