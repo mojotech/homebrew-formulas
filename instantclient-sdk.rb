@@ -12,7 +12,7 @@ class InstantclientSdk < Formula
   sha256 'aead0663c206a811cf1f61d3b2a533ff81e6e6109dd31544ad850a7ef6eb5d19'
 
   def install
-    lib.install ['sdk']
     include.install Dir['sdk/include/*.h']
+    # lib.install ['sdk']
   end
 end
