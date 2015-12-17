@@ -18,6 +18,7 @@ class InstantclientBasic < Formula
       ln_s "#{dylib}.11.1", dylib
     end
     lib.install Dir['*.dylib*']
+    libexec.install Dir['*.jar']
   end
 
   def post_install
